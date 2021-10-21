@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tvTitle1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rg_OS"
+        android:layout_width="253dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rb_Windows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbtn480" />
+
+        <RadioButton
+            android:id="@+id/rb_Appel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rbtn720" />
+
+        <RadioButton
+            android:id="@+id/rb_Ubuntu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/rbtn1080" />
+
+        <RadioButton
+            android:id="@+id/rb_Android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_Android" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/tv_Body1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/iv_Ubuntu"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/todo2"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/rg_OS"
+        app:layout_constraintTop_toBottomOf="@+id/iv_Appel"
+        app:srcCompat="@drawable/ubuntu" />
+
+    <TextView
+        android:id="@+id/tv_Windows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="9dp"
+        android:text="@string/tv_WindowsVote"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_Load" />
+
+    <TextView
+        android:id="@+id/tv_Android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="@string/tv_Android"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Ios" />
+
+    <TextView
+        android:id="@+id/tv_Ios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="@string/tv_Ios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Ubuntu" />
+
+    <TextView
+        android:id="@+id/tv_VoteWindows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/tv_VoteWindows"
+        app:layout_constraintStart_toEndOf="@+id/tv_Windows"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_VoteUbuntu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="369dp"
+        android:text="@string/tv_VoteUbuntu"
+        app:layout_constraintStart_toEndOf="@+id/tv_Ubuntu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_VoteIos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="389dp"
+        android:text="@string/tv_VoteIos"
+        app:layout_constraintStart_toEndOf="@+id/tv_Ios"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_VoteAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="408dp"
+        android:text="@string/tv_VoteAndroid"
+        app:layout_constraintStart_toEndOf="@+id/tv_Android"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Ubuntu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="@string/tv_Ubuntu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Windows" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="66dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="92dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/rg_OS"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/windows"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/iv_Android"
+        android:layout_width="67dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/todo3"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/rg_OS"
+        app:layout_constraintTop_toBottomOf="@+id/iv_Ubuntu"
+        app:srcCompat="@drawable/android" />
+
+    <ImageView
+        android:id="@+id/iv_Appel"
+        android:layout_width="66dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/todo1"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toEndOf="@+id/rg_OS"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/appel" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_Load"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/imgbtn_Load"
+        android:onClick="cargarResultadosVotos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_OS"
+        app:srcCompat="@android:drawable/ic_menu_save"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

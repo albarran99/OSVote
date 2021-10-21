@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectRadioButton</string>
+    <string name="rbtn480">Windows</string>
+    <string name="rbtn1080">Ubuntu</string>
+    <string name="rbtn720">Ios</string>
+    <string name="rb_Android">Android</string>
+    <string name="tv_Resolutions">resoluciones</string>
+    <string name="tvTitle1">Encuesta sobre sistemas operativos</string>
+    <string name="tv_Body1">selecione su sistema operativo favorito</string>
+    <string name="tv_WindowsVote">Windows</string>
+    <string name="tv_Ubuntu">Ubuntu</string>
+    <string name="tv_Ios">Ios</string>
+    <string name="tv_Android">Android</string>
+    <string name="tv_VoteWindows" />
+    <string name="tv_VoteUbuntu" />
+    <string name="tv_VoteIos" />
+    <string name="tv_VoteAndroid" />
+    <string name="imgbtn_Load">load</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+</resources>
